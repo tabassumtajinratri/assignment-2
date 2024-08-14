@@ -7,7 +7,6 @@
   
   .shape {
       font-family: "Grey Qo", cursive;
-      /* font-weight: 400; */
       font-size: 100px;
       font-weight: 10;
      
@@ -624,8 +623,9 @@
       line-height: 1.5;
   } 
   
-  h5{
+  .foot{
       text-align: center;
+      display: block;
   }
   hr{
       width: 75%;
@@ -664,7 +664,7 @@
          
       }
   
-      .list, h5{
+      .list, .foot{
           color: #FFFFFF;
           opacity: 50%;
       }
@@ -676,15 +676,11 @@
       }
   
       .banner, .habit-img{
-          /* display: grid;
-          grid-template-columns: repeat(1, fr); */
-  
           flex-direction: column;
           
       }
   
       .main{
-          /* max-width: 100%; */
           width: 100%;
           margin: 0 auto;
           
@@ -710,19 +706,6 @@
       } 
       
   
-      .banner{
-  
-          /* width: 70%; */
-          /* border: 1px solid red; */
-          
-          /* margin: 20 auto;
-          gap: 0px; */
-      }
-  
-      .header{
-          /* width: 70%; */
-      }
-  
      .btn-1, .btn-2{
       width: 120px;
   
@@ -736,12 +719,8 @@
       top: -450px; 
       }
   .btn-3{
-          /* background: rgba(48, 48, 48, 0.54);
-          color: #FFFFFF; */
           width: 120px;
           height: 70px;
-          /* padding: 10px;
-          border-radius: 12px; */
           position: relative;
           right: 10px;
           bottom: 250px;
@@ -779,11 +758,8 @@
       font-size: 30px;
      }
   
-  .habit{
-      /* border: 1px solid red; */
-  }
   .run{
-      /* border: 1px solid red; */
+
       margin-top: 50px;
   }
   .run-father{
@@ -823,7 +799,6 @@
   
   .bmi-flex{
       flex-direction: column;
-      /* border: 1px solid red; */
       width: 90%;
   
   }
@@ -879,12 +854,13 @@
   .footer{
       margin-top: 0px;
       flex-direction: column;
-      /* border: 2px solid red; */
       background-color: #222222; 
       
   }
   
-  
+  .footer1{
+    background-color: #222222; 
+  }
   
   .Foot-head{
       font-size: 40px;
@@ -899,18 +875,12 @@
   
   }
   
-  .list, h5{
+  .list, .foot{
       color: #FFFFFF;
       opacity: 50%;
   }
-  
-  
-  
-  
-  
+   
   .container-unique{
-  
-      /* width: 70%; */
       flex-direction: column;
   }
   
