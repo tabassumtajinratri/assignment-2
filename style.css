@@ -1,0 +1,932 @@
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  .shape {
+      font-family: "Grey Qo", cursive;
+      /* font-weight: 400; */
+      font-size: 100px;
+      font-weight: 10;
+     
+    }
+    
+  .color-1{
+      color: #E6533C;
+  }
+  
+  .fa-circle{
+      color: #E6533C;
+      margin: 0;
+      width: 15px;
+  }
+  
+  
+  body{
+      background-color: black;
+      color: aliceblue;
+  }
+  
+  
+  
+  /* navbar design */
+  header{
+      /* max-width: 1140px; */
+      width: 70%;
+      margin: 0 auto;
+  }
+
+  .navbar{
+      display: flex;
+      justify-content: space-between; 
+  }
+  
+  .vi{
+      text-indent: 150px;
+  }
+  .child{
+      display: flex;
+      justify-content:space-around;
+      text-decoration: none;
+      list-style: none;
+      border: 1px solid gray;
+      padding: 0;
+      border-radius: 39px;
+      gap: 47px;
+      
+  }
+  
+  .child li{
+      padding: 5px;
+      font-size: 18px;
+      color: #FFFFFF;
+  }
+  .btn-3{
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      gap: 6px;
+  }
+  .home{
+      border: 2px solid gray;
+      border-radius: 20px;
+      padding: 30px;
+      background-color: #E6533C;
+      width: 92px;
+      text-align: center;
+     
+  
+  }
+  
+  
+  /* banner design */
+  .banner{
+      /* max-width: 1140px; */
+      /* min-width: 75%; */
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; 
+      margin-top: 20px;
+      gap: 10px;
+      /* border: 2px solid red; */
+  }
+  .banner1{
+    /* border: 1px solid red; */
+    background-image: linear-gradient( rgb(0, 0, 0), rgb(27, 26, 26), black);
+  }
+  .banner-leftside{
+      /* border: 2px solid red; */
+      margin-top: 30px;
+      
+  }
+  
+  .bh{
+      font-size: 40px;
+  font-weight: 800;
+  }
+  
+  .img-bn{
+      width: 95%;
+      position: relative;
+      right: 90px;
+      top: 60px;
+  }
+  
+  
+  .img-bn1{
+  
+      /* border: 2px solid gray; */
+      gap: 50px;
+      position: relative;
+      left: 20px;
+      height: 600px;
+      width: 380px;
+  
+  }
+  
+  .btn{
+      margin: 0 5px;
+  }
+  
+  .digit{
+      font-weight: 600;
+      font-size: 20px;
+  }
+  
+  .digit1{
+      font-weight: 600;
+      font-size: 20px;
+      border: none;
+  }
+  .p{
+      font-size: 16px;
+  }
+  .btn-1{
+      margin: 5px;
+      padding: 10px;
+      border-radius: 20px;
+      width: 200px;
+      background-color: #E6533C;
+      border: none;
+      color: #FFFFFF;
+  }
+  
+  .btn-2{
+  
+      margin: 5px;
+      padding: 10px;
+      border-radius: 20px;
+      width: 200px;
+      background-color: black;
+      color: #FFFFFF;
+      border: 1px solid gray;
+  }
+  
+  
+  .btn-3{
+  background: rgba(48, 48, 48, 0.54);
+  color: #FFFFFF;
+  width: 120px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+  right: 100px;
+  bottom: 50px;
+  border: none;
+  } 
+  
+  /* .shape{
+      font-family: "Grey Qo", cursive;
+      font-weight: 100;
+      font-size: 110px;
+  } */
+  
+  .btn-4{
+  
+  background: rgba(48, 48, 48, 0.54);
+  color: #FFFFFF;
+  width: 150px;
+  height: 90px;
+  padding: 10px;
+  border-radius: 12px;
+  position: relative;
+  left: 78px;
+  top: -350px; 
+  border: none;
+  
+  }
+  .para{
+      color: #FFFFFF;
+      opacity: 50%;
+      font-size: 16px;
+  }
+  
+  .dot{
+      border: 2 px solid red;
+  }
+  
+  .button{
+    
+      
+  }
+  /* habit section */
+  .habit{
+      /* max-width: 1000px; */
+      /* min-width: 75%; */
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 5px;
+  }
+  
+  .habit-heading{
+      color: #FFFFFF;
+      font-size: 40px;
+      font-weight: 800;
+  }
+  
+  .img-head{
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+      /* font-size: 12px;
+      font-weight: 300; */
+  
+  
+  }
+  
+  .habit-heading, .description{
+      text-align: center;
+  }
+  
+  .description, .img-pera{
+      color: #FFFFFF;
+      opacity: 50%;
+      font-size: 12px;
+  }
+  
+  .habit-img{
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+      border-radius: 50px;
+  }
+  
+  .img-pera{
+      text-align: center;
+  }
+  
+  .habit-img img{
+      border-radius: 100px;
+      width: 150px;
+      height: 150px;
+  
+  }
+  
+  /* run design start*/
+  
+  .run{
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 100px;
+  
+  
+  }
+  
+  .run-father{
+  
+      background-color: #222222;
+      border-radius: 18px;  
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+  
+      
+  } 
+  
+  .run-img img{
+      width: 70%; 
+      border-radius: 18px;   
+      object-fit: none;
+      object-position: 72% 31%;
+      zoom: 65%;
+  }
+  
+  .run-habite{
+      color: #FFFFFF;
+      font-size: 40px;
+      padding-left: 54px;
+      padding-bottom: 2px;
+  }
+  
+  .run-pera{
+      padding-left: 54px;
+      font-size: 14px;
+      color: #FFFFFF;
+      opacity: 50%;
+      line-height: 1.5;
+  
+  }
+  
+  .join-btn{
+  
+      margin-left: 54px;
+      width: 200px;
+      height: 50px;
+      border-radius: 42px;
+      background-color: #E6533C;
+      border: none;
+      color: #FFFFFF;
+      font-size: 18px;
+  }
+  
+  .run-sec{
+      position: relative;
+      bottom: 15px; 
+  }
+  
+  .run-img{
+  
+      position: relative;
+      left: 110px;
+      top: 30px;
+      
+  }
+  
+  body{
+      background-color: black;
+  }
+  
+  /* run design finished*/
+  
+  
+  /* team design */
+  
+  .team{
+      max-width: 70%;
+      margin: 0 auto;
+      margin-top: 100px;
+  
+  } 
+  
+  .img-heading{
+      text-align: center;
+      font-size: 48px;
+  }
+  
+  .img{
+      width: 270px;
+      height: 200px;
+      overflow: hidden;
+  }
+  
+  .trainer-img img{
+      
+      width: 100%;
+      height: 100%; 
+      border-radius: 18px;
+      object-fit: cover;
+      
+   } 
+  
+   .trainer-img{
+      background-color: #222222;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      justify-items: center;
+      padding: 10px;
+      border-radius: 18px;
+      
+  }
+  
+  
+  .hp{
+      margin-top: -23px;
+      margin-left: 20px;
+      color: #FFFFFF;
+      opacity: 70%;
+  } 
+  
+  .hello{
+      margin-top: -70px;
+      margin-left: 20px;
+      color: #FFFFFF;
+      font-size: 20px;
+  }
+  
+  /* team design finished */
+  
+  /* bmi design */
+  
+  .BMI-heading{
+      color: #FFFFFF;
+  }
+  
+  .BMI{
+      
+      color: #FFFFFF;
+  }
+  
+  .BMP{
+      font-size: 15px;
+      color: #FFFFFF;
+      opacity: 50%;
+  
+  }
+  
+  table{
+      border-collapse: collapse;
+  }
+  
+  td, th{
+      border: 1px solid white;
+      padding: 15px 10px;
+  }
+  
+  td{
+      color: #514e4e;
+      text-align: center;
+  }
+  
+  
+  
+  .bmi-flex{
+      display: flex;
+      justify-content: space-between;
+      /* max-width: 1000px; */
+      width: 100%;
+      margin: 0 auto;
+      
+      /* background-color: #E6533C; */
+      
+  }
+  
+  
+  .BMI-heading, .img-heading, .hd{
+      text-align: center;
+      font-size: 38px;
+      font-weight: 900;
+  
+  }
+  .bmi-pera{
+      text-align: center;
+  }
+  
+  .gj{
+      background-color: #222222;
+     padding: 50px;
+  }
+  .BMI-Heading, .cal-bmi{
+      color: #FFFFFF;
+      font-size: 28px;
+  }
+  
+  .bmi-pera{
+      font-size: 18px;
+      color: #514e4e;
+  }
+   .form-container label {
+      margin-top: 25px;
+      
+  } 
+  
+  input {
+      padding: 15px;
+      color: #FFFFFF; 
+  }
+  
+  .form{
+      background-color: #514e4e;
+      width: 85%;
+      border: none;
+      border-radius: 12px;
+  }
+  
+  
+  
+  .fg{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  
+  
+  .SB{
+      display: grid;
+      grid-template-columns: 500px;
+      
+      width: 100%; 
+  }
+  
+  
+  input::placeholder {
+      color: #FFFFFF;
+      
+    }
+  
+  
+  .select{
+      display: inline;
+      padding: 15px;
+      width: 270px;
+      border: none;
+      background-color: #514e4e;
+      border-radius: 12px;
+      color: #FFFFFF;
+  
+  }
+  
+  .select1{
+      display: inline;
+      padding: 15px;
+      width: 110%; 
+      border: none;
+      border-radius: 12px;
+      background-color: #514e4e;
+      color: #FFFFFF;
+  
+  }
+  
+  /* bmi design finished */
+  
+  /* unique */
+  .container-unique{
+      color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto;
+      gap: 30px;
+      margin-top: 50px;
+  }
+  
+  .container-unique img{
+  
+      border-radius: 100px;
+      width: 15%;
+      margin: 20px;
+  }
+  
+  .card{
+      background: rgba(255, 223, 0, 0.05);
+  }
+  .card1{
+      background: rgba(0, 76, 232, 0.05);
+  }
+  .card2{
+      background: rgba(255, 223, 0, 0.05);
+  }
+  
+  .head{
+      font-size: 30px;
+      text-align: center;
+      color: rgb(237, 234, 212);
+      
+  }
+  .ul-list{
+      font-size:15px;
+      line-height: 1.5;
+      color: #514e4e;
+  }
+  
+  .hd{
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      color: #FFFFFF;
+  }
+  
+  /* footer design finished*/
+  
+  
+   .footer{
+      
+      display: flex;
+      justify-content: space-evenly;
+    
+  } 
+  
+  .footer1{
+      background-color: #222222;
+      margin-top: 100px;
+      height: 489px;
+  
+  }  
+  
+  .Foot-head{
+      font-size: 40px;
+      color: #E6533C;
+      padding-top: 60px;
+  } 
+  
+  .foot-pera{
+      font-size: 14px;
+      color: #FFFFFF;
+      opacity: 50%;
+      line-height: 25px;
+  } 
+  
+  .Started{
+      font-weight: bold;
+      font-size: 32px;
+      padding-top: 40px; 
+  
+  }
+  
+  
+   .list{
+      list-style: none;
+      padding: 0;
+      line-height: 1.5;
+  } 
+  
+  h5{
+      text-align: center;
+  }
+  hr{
+      width: 75%;
+  } 
+  
+  .join-btn1{
+  
+     margin-top: 15px;
+      width: 310px;
+      height: 50px;
+      border-radius: 42px;
+      background-color: #E6533C;
+      border: none;
+      color: #FFFFFF;
+      font-size: 18px;
+  }
+  
+  .btn-7{
+      background: rgba(48, 48, 48, 0.54);
+      color: #FFFFFF;
+      width: 150px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      border: none;
+      } 
+  
+      .uns{
+          margin-top: 100px;
+      }
+  
+      .icn{
+          visibility: hidden; 
+         
+      }
+  
+      .list, h5{
+          color: #FFFFFF;
+          opacity: 50%;
+      }
+  
+  @media screen and (max-width:576px){
+  
+      .child{
+          visibility: hidden;
+      }
+  
+      .banner, .habit-img{
+          /* display: grid;
+          grid-template-columns: repeat(1, fr); */
+  
+          flex-direction: column;
+          
+      }
+  
+      .main{
+          /* max-width: 100%; */
+          width: 100%;
+          margin: 0 auto;
+          
+      }
+  
+      .habit-img{
+  
+      }
+  
+      .bh{
+          font-size: 30px;
+      }
+  
+      .shape{
+          font-size: 36px;
+      }
+  
+  .icn{
+          visibility: visible;
+          position: relative;
+          right: 205px;
+          top: 10px;
+      } 
+      
+  
+      .banner{
+  
+          /* width: 70%; */
+          /* border: 1px solid red; */
+          
+          /* margin: 20 auto;
+          gap: 0px; */
+      }
+  
+      .header{
+          /* width: 70%; */
+      }
+  
+     .btn-1, .btn-2{
+      width: 120px;
+  
+     }
+  
+  .btn-4{
+      width: 150px;
+      height: 80px;
+      position: relative;
+      left: 200px;
+      top: -450px; 
+      }
+  .btn-3{
+          /* background: rgba(48, 48, 48, 0.54);
+          color: #FFFFFF; */
+          width: 120px;
+          height: 70px;
+          /* padding: 10px;
+          border-radius: 12px; */
+          position: relative;
+          right: 10px;
+          bottom: 250px;
+          
+          } 
+  
+      .digit1{
+          font-weight: 600;
+          font-size: 20px;
+          border: none;
+      }
+  
+      .img-bn{
+          width: 80%;
+          position: relative;
+          left: 15px;
+      }
+  
+      .digit{
+          font-weight: 600;
+          font-size: 15px;
+      }
+  
+  
+      /* habit */
+  
+      .habit-img img{
+          margin-top: 5px;
+          position: relative;
+          left: 120px;
+      
+      }
+  
+     .habit-heading{
+      font-size: 30px;
+     }
+  
+  .habit{
+      /* border: 1px solid red; */
+  }
+  .run{
+      /* border: 1px solid red; */
+      margin-top: 50px;
+  }
+  .run-father{
+      grid-template-columns: repeat(1, 1fr);
+      
+  }
+  
+  .run-img img{
+      width: 70%; 
+      border-radius: 18px;   
+      object-fit: none;
+      object-position: 72% 31%;
+      zoom: 65%;
+  }
+  
+  .run-habite{
+      font-size: 30px;
+  }
+  
+  .join-btn{
+  
+      margin-left: 54px;
+      width: 80%;
+      height: 50px;
+      border-radius: 42px;
+      background-color: #E6533C;
+      border: none;
+      color: #FFFFFF;
+      font-size: 18px;
+  }
+  
+  .pic{
+      position: relative;
+      bottom: 70px;
+      right: 60px;
+  }
+  
+  .bmi-flex{
+      flex-direction: column;
+      /* border: 1px solid red; */
+      width: 90%;
+  
+  }
+  
+  .BMI-heading{
+      font-size: 30px;
+  }
+  
+  .bmi-pera, .BMP{
+      font-size: 12px;
+  }
+  
+  .BMP{
+      color: #FFFFFF;
+      opacity: 50%;
+      font-size: 10px;
+  }
+  
+  .BMI-Heading, .cal-bmi{
+      font-size: 18px;
+  }
+  
+  .form{
+      width: 80%;
+  } 
+  input {
+      padding: 15px;
+      color: #FFFFFF; 
+  }
+  
+  .select{
+      width: 93%;
+  }
+  
+  .select1{
+      width: 80%; 
+  }
+      
+  .join-btn1{
+      width: 50%;
+      padding: 10px;
+  }
+  
+  .trainer-img{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .img{
+      width: 250px;
+      height: 200px; 
+  }
+  
+  .footer{
+      margin-top: 0px;
+      flex-direction: column;
+      /* border: 2px solid red; */
+      background-color: #222222; 
+      
+  }
+  
+  
+  
+  .Foot-head{
+      font-size: 40px;
+      padding-top: 20px;
+  } 
+  
+  .Started{
+      font-weight: bold;
+      font-size: 25px;
+      padding-top: 20px; 
+      
+  
+  }
+  
+  .list, h5{
+      color: #FFFFFF;
+      opacity: 50%;
+  }
+  
+  
+  
+  
+  
+  .container-unique{
+  
+      /* width: 70%; */
+      flex-direction: column;
+  }
+  
+  .hd{
+      font-size: 30px;
+      margin-top: 15px;
+  }
+  
+  .head{
+      font-size: 25px;
+  }
+  
+  .ul-list li{
+      font-size: 15px;
+  }
+      
+  }
+  
+  
